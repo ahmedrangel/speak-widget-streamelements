@@ -1,0 +1,179 @@
+{
+	"command": {
+		"type": "string",
+		"label": "Comand",
+		"value": "!tts"
+	},
+  "pre": {
+		"type": "string",
+		"label": "Decir antes del texto",
+		"value": "Dice: "
+	},
+  "useCmd": {
+    "group": "General",
+    "type": "checkbox",
+    "label": "Usar Comando"
+  },
+  "reward": {
+    "type": "string",
+    "label": "Recompensa",
+    "value": ""
+	},
+  "useReward": {
+    "group": "General",
+    "type": "checkbox",
+    "label": "Usar Recompensa Personalizada"
+  },
+  "useDefault": {
+    "group": "General",
+    "type": "checkbox",
+    "label": "Usar Recompensa Default(Destacar Mensaje)"
+  },
+  "boolMsg": {
+    "type": "checkbox",
+    "label": "Mostrar Mensaje",
+    "value": true
+  },
+  "isUser": {
+    "type": "checkbox",
+    "label": "escuchar usuario"
+  },
+  "isGuion": {
+    "type": "checkbox",
+    "label": "cambiar _ por espacios"
+  },
+  "subscriber": {
+    "group": "permisos",
+    "type": "checkbox",
+    "label": "Subs"
+  },
+  "vip": {
+    "group": "permisos",
+    "type": "checkbox",
+    "label": "vips"
+  },
+  "moderator": {
+    "group": "permisos",
+    "type": "checkbox",
+    "label": "Mods",
+    "value": "true"
+  },
+  "all": {
+    "group": "permisos",
+    "type": "checkbox",
+    "label": "Todos"
+  },
+  "listUser": {
+    "group": "permisos",
+    "type": "string",
+    "label": "Usuarios de confianza (separados por ,)",
+    "value": ""
+  },
+  "listBans": {
+    "group": "permisos",
+    "type": "string",
+    "label": "Palabras Baneadas (separados por ,)",
+    "value": ""
+  },
+	"voz": {
+		"type": "dropdown",
+		"label": "Selecciona una voz",
+		"value": "es-mx",
+		"options": {
+      "Enrique": "Enrique (España)",
+      "Conchita": "Conchita (España)",
+      "Mia": "Mia (MX)",
+      "Miguel": "Miguel (es-USA)",
+      "Penelope": "Penelópe (es-USA)",
+			"es-mx": "Google (MX)",
+        "es-es": "Google (ESPAÑA)"
+		}
+	},
+  "volumen": {
+    "type": "slider",
+    "label": "Volumen",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "bgColor": {
+    "label": "Background Color",
+    "type": "colorpicker",
+    "value": "rgb(0, 0, 0, 0.5)",
+    "group": "Pantalla"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font size",
+    "value": 22,
+    "group": "Pantalla"
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "700",
+    "options": {
+      "100": "Thin (100)",
+      "300": "Light (300)",
+      "400": "Regular (400)",
+      "500": "Medium (500)",
+      "700": "Bold (700)",
+      "900": "Black (900)"
+    },
+    "group": "Pantalla"
+  },
+  
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font Color",
+    "value": "rgba(255,255,255,1)",
+    "group": "Pantalla"
+  },
+  "textShadow": {
+    "type": "text",
+    "label": "Text shadow",
+    "value": "rgb(0, 0, 0) 1px 1px 1px",
+    "group": "Pantalla"
+  },
+  "fontName": {
+    "label": "Font Family",
+    "type": "googleFont",
+    "value": "Montserrat",
+    "group": "Pantalla"
+  },
+  "inT": {
+    "type": "dropdown",
+    "label": "Animación de Entrada",
+    "value": "SlideUp",
+    "group": "Pantalla",
+    "options": {
+      "SlideUp": "SlideUp",
+      "SlideDown": "SlideDown",
+      "SlideLeft": "SlideLeft",
+      "SlideRight": "SlideRight",
+      "Fade": "Fade",
+      "Bounce": "Bounce"
+    }
+  },
+  "outT": {
+    "type": "dropdown",
+    "label": "Animacion de Salida",
+    "value": "SlideUp",
+    "group": "Pantalla",
+    "options": {
+      "SlideUp": "SlideUp",
+      "SlideDown": "SlideDown",
+      "SlideLeft": "SlideLeft",
+      "SlideRight": "SlideRight",
+      "Fade": "Fade",
+      "Bounce": "Bounce"
+    }
+  },
+  "test-tts": {
+    "type": "button",
+    "label": "Test",
+    "value": "test",
+    "group": "Test"
+  }
+}
